@@ -22,7 +22,38 @@
     border-bottom-left-radius: 15px;
     color: white;
     text-align: center;
+    float: left;
 }
 .valor h1{
-    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 15px;
+    font-size: 50px;
+}
+.valor .vencimento{
+    position: relative;
+    top: 35%;
+    font-size: 25px;    
+}
+.descricao{
+    position: relative;
+    float: right;
+    width: 62.5%;
+    height: 100%;
+}
+
+.descricao .texto{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.descricao button{
+    float: right;
+    margin-right: 15px;
+    width: 50%;
+    height: 20%;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    background-color: cadetblue;
 }
